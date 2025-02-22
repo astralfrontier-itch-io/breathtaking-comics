@@ -12,14 +12,26 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in
       {
-        packages.nodemodules = pkgs.buildNpmPackage {
-          name = "breathtaking-comics-nodemodules";
+        packages.templates = pkgs.buildNpmPackage {
+          name = "breathtaking-comics-templates";
           nativeBuildInputs = with pkgs; [ nodejs_22 ];
-          src = nixpkgs.lib.sources.sourceByRegex self ["^package(|-lock)\.json$"];
+          src = self;
           npmDepsHash = "sha256-6fpW4yb2b0RQvMPgSm6KWhbKRl4+TZ9/TVmcPTyw1HA=";
           installPhase = ''
             mkdir $out
-            cp -a node_modules/. $out/
+            cp -a *.tex $out/
+          '';
+        };
+        packages.pandoc = pkgs.stdenvNoCC.mkDerivation {
+          name = "breathtaking-comics-pandoc";
+          nativeBuildInputs = [
+            pkgs.pandoc
+          ];
+          src = self;
+          dontBuild = true;
+          installPhase = ''
+            mkdir $out
+            ls *.md | sed -e 's/\.md$//' | xargs -I @ pandoc -f markdown -t context -o $out/@.tex @.md
           '';
         };
         packages.default = pkgs.stdenvNoCC.mkDerivation {
@@ -30,10 +42,7 @@
           ];
           src = self;
           buildPhase = ''
-            cp -a ${self.packages.${system}.nodemodules}/. node_modules/
-            export OSFONTDIR=$PWD/fonts
-            mtxrun --generate
-            mtxrun --script fonts --reload
+            cp -a ${self.packages.${system}.pandoc}/. .
             context breathtaking-comics.tex --purgeall
           '';
           installPhase = ''
@@ -46,6 +55,7 @@
           packages = [
             pkgs.nodejs_22
             pkgs.texliveConTeXt
+            pkgs.pandoc
           ];
         };
       }

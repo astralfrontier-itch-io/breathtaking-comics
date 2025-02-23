@@ -2,7 +2,9 @@
 
 ## Playing through post-Crisis scenes
 
-Once a Crisis scene ends, players should look at their resolved Drives and think back to how the scene went. Based on that, they can play through one or more scenes suggested by this outcome. Example scenes:
+Once a Crisis scene ends, players should look at their resolved Drives and think back to how the scene went. Based on that, they can play through one or more scenes suggested by this outcome.
+
+Example scenes:
 
 - A scene set immediately after the Crisis ends. For example, a character might engage with civilians who were rescued, attending to their needs and fears, or examine the wreckage of a building for clues about the villain's motivation.
 - A scene set some time after the Crisis, as a hero follows up on the Crisis itself or engages in other business. For example, a character who fulfilled a Drive to capture a villain might interrogate that villain in prison, or make a report to police or government agents about what happened.

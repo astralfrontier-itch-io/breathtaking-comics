@@ -6,7 +6,7 @@ This is a game for one or more players. It can be played either as a standalone 
 
 You'll need a set of polyhedral dice - a set of dice with 4, 6, 8, 10, and 12 sides - and a way to take notes. If you are playing digitally, you can make a copy of a Character Keeper to track characters:
 
-https://docs.google.com/spreadsheets/d/1IWoFfMbT-cJ3-Edf0qQzwdDTsJ4lFnSDPJWdmloY8eI/edit?usp=sharing
+[Breathtaking Comics Character Keeper](https://docs.google.com/spreadsheets/d/1IWoFfMbT-cJ3-Edf0qQzwdDTsJ4lFnSDPJWdmloY8eI/edit?usp=sharing)
 
 ## What the game asks of you
 

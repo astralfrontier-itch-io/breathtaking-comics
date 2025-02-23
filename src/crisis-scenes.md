@@ -31,12 +31,12 @@ Rate each Drive with a number from 1 to 3. The higher the rating, the more diffi
 The total ratings of each character's individual Drives, plus any shared Drives, should be 7. For example, ratings of 3, 2, 1, 1 or 2, 2, 2, 1 would work.
 
 > **Example Drives**
-- A relationship with a villain. Name the villain and say what you want to do - defeat them, capture them, rehabilitate them, avenge yourself against them, and so on.
-- Dealing with a natural disaster, such as a flood, tornado, earthquake, tsunami, etc., or an artificial or extraordinary disaster, such as a meteor, black hole, giant monster, runaway plasma explosion, etc.
-- Attending to a group of people - the more specific, the better. "Save all the civilians" is okay, but "evacuate the trapped scientists" is more evocative and unique.
-- A personal goal, such as achieving fame or notoriety, overcoming a weakness, impressing or intimidating someone else, developing a new power, etc.
-- Advancing or changing your position on the team, promoting a team goal, striving for a leadership position, improving team morale, pursuing a rivalry with a teammate, or anything else that relates to your allies or the group as a whole.
-> 
+>
+> - A relationship with a villain. Name the villain and say what you want to do - defeat them, capture them, rehabilitate them, avenge yourself against them, and so on.
+> - Dealing with a natural disaster, such as a flood, tornado, earthquake, tsunami, etc., or an artificial or extraordinary disaster, such as a meteor, black hole, giant monster, runaway plasma explosion, etc.
+> - Attending to a group of people - the more specific, the better. "Save all the civilians" is okay, but "evacuate the trapped scientists" is more evocative and unique.
+> - A personal goal, such as achieving fame or notoriety, overcoming a weakness, impressing or intimidating someone else, developing a new power, etc.
+> - Advancing or changing your position on the team, promoting a team goal, striving for a leadership position, improving team morale, pursuing a rivalry with a teammate, or anything else that relates to your allies or the group as a whole.
 
 ## Weaving a Scenario
 

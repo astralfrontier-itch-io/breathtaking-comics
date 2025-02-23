@@ -49,10 +49,10 @@ Characters start with a Moment. They can gain more Moments and Sparks of Hope du
 The group can also progress a situation or make a luck-based check by picking a die size and rolling it. Roll a d4 if things are already bad, a d6 for 50-50 odds, or a d8, d10, or d12 for increasingly better chances of a good outcome. This kind of roll is called an Oracle Check.
 
 > **Example checks**
-- Use the “control gravity” power to fling an enemy at a building. On a roll of 5+, the action might succeed and help fulfill a drive like “defeat the villain”. On a failure, it might frustrate a drive like “save everyone in danger”, as the building collapses around terrified civilians.
-- Use the “create force fields” power to block an enemy's charged-up energy blast. In this case the character is reacting to someone else's action, but they still make the check.
-- The characters kept a dam from bursting earlier, but there are still cracks in it. The group decides to make an Oracle Check. They decide the odds are 50-50, and so roll a d8 to see whether it's holding. On a 5+, everything is fine. On a 3-4, what they did might not hold for long, and on a 1-2, it might need immediate attention - or burst open immediately!
 > 
+> - Use the “control gravity” power to fling an enemy at a building. On a roll of 5+, the action might succeed and help fulfill a drive like “defeat the villain”. On a failure, it might frustrate a drive like “save everyone in danger”, as the building collapses around terrified civilians.
+> - Use the “create force fields” power to block an enemy's charged-up energy blast. In this case the character is reacting to someone else's action, but they still make the check.
+> - The characters kept a dam from bursting earlier, but there are still cracks in it. The group decides to make an Oracle Check. They decide the odds are 50-50, and so roll a d8 to see whether it's holding. On a 5+, everything is fine. On a 3-4, what they did might not hold for long, and on a 1-2, it might need immediate attention - or burst open immediately!
 
 ## Fulfilling and Frustrating Drives
 
@@ -98,5 +98,5 @@ The good news is that your spiral can accomplish amazing feats. When you spiral,
 Spiraling resets your Power Facet dice to their normal values. It does not affect Moments.
 
 > **Example Spiral**
-G-Whiz thought she had the dam situation figured out. But now it's showing cracks, and water is about to break through! This isn't supposed to happen - she's supposed to be a genius scientist! Her mounting frustration and hero complex combine, and she rips bits of material out of the town and landscape, jamming it all against the dam with her prodigious gravity powers! She rolls a d12 to see if it fixes the dam. It does, but the group decides that she's also caused a lot of extra (and expensive) damage, and either scared or endangered a lot of people! Calming down the crowd and keeping them from being hurt becomes an immediate priority.
->
+> 
+> G-Whiz thought she had the dam situation figured out. But now it's showing cracks, and water is about to break through! This isn't supposed to happen - she's supposed to be a genius scientist! Her mounting frustration and hero complex combine, and she rips bits of material out of the town and landscape, jamming it all against the dam with her prodigious gravity powers! She rolls a d12 to see if it fixes the dam. It does, but the group decides that she's also caused a lot of extra (and expensive) damage, and either scared or endangered a lot of people! Calming down the crowd and keeping them from being hurt becomes an immediate priority.

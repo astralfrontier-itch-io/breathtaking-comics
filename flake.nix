@@ -42,7 +42,8 @@
           ];
           src = self;
           buildPhase = ''
-            cp -a ${self.packages.${system}.pandoc}/. .
+            cp -a ${self.packages.${system}.pandoc}/*.tex .
+            ls -la
             context breathtaking-comics.tex --purgeall
           '';
           installPhase = ''

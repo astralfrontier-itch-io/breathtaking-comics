@@ -19,7 +19,7 @@
           npmDepsHash = "sha256-6fpW4yb2b0RQvMPgSm6KWhbKRl4+TZ9/TVmcPTyw1HA=";
           installPhase = ''
             mkdir $out
-            cp -a *.tex $out/
+            cp -a out/* $out/
           '';
         };
         packages.pandoc = pkgs.stdenvNoCC.mkDerivation {
@@ -31,7 +31,7 @@
           dontBuild = true;
           installPhase = ''
             mkdir $out
-            ls *.md | sed -e 's/\.md$//' | xargs -I @ pandoc -f markdown -t context -o $out/@.tex @.md
+            find src -name "*.md" -printf "%f\n" | sed -e 's/\.md$//' | xargs -I @ pandoc -f markdown -t context -o $out/@.tex src/@.md
           '';
         };
         packages.default = pkgs.stdenvNoCC.mkDerivation {
@@ -42,8 +42,8 @@
           ];
           src = self;
           buildPhase = ''
-            cp -a ${self.packages.${system}.pandoc}/*.tex .
-            ls -la
+            cp -a ${self.packages.${system}.pandoc}/*.tex src/
+            pushd src/
             context breathtaking-comics.tex --purgeall
           '';
           installPhase = ''

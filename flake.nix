@@ -10,10 +10,11 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
+        projectname = "breathtaking-comics";
       in
       {
         packages.templates = pkgs.buildNpmPackage {
-          name = "breathtaking-comics-templates";
+          name = "${projectname}-templates";
           nativeBuildInputs = with pkgs; [ nodejs_22 ];
           src = self;
           npmDepsHash = "sha256-6fpW4yb2b0RQvMPgSm6KWhbKRl4+TZ9/TVmcPTyw1HA=";
@@ -23,7 +24,7 @@
           '';
         };
         packages.pandoc = pkgs.stdenvNoCC.mkDerivation {
-          name = "breathtaking-comics-pandoc";
+          name = "${projectname}-pandoc";
           nativeBuildInputs = [
             pkgs.pandoc
           ];
@@ -35,7 +36,7 @@
           '';
         };
         packages.default = pkgs.stdenvNoCC.mkDerivation {
-          name = "breathtaking-comics-pdf";
+          name = "${projectname}-pdf";
           nativeBuildInputs = [
             pkgs.nodejs_22
             pkgs.texliveConTeXt
@@ -44,15 +45,15 @@
           buildPhase = ''
             cp -a ${self.packages.${system}.pandoc}/*.tex src/
             pushd src/
-            context breathtaking-comics.tex --purgeall
+            context ${projectname}.tex --purgeall
           '';
           installPhase = ''
             mkdir $out
-            cp breathtaking-comics.pdf $out/
+            cp ${projectname}.pdf $out/
           '';
         };
         devShell = pkgs.mkShell {
-          name = "breathtaking-comics";
+          name = "${projectname}";
           packages = [
             pkgs.nodejs_22
             pkgs.texliveConTeXt

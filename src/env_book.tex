@@ -15,10 +15,19 @@
 \setupheadertexts[Breathtaking Comics]
 \setupfootertexts[chapter][pagenumber]
 
+% Don't show section numbers
+\setupheads[number=no]
+
+% Center-align titles and chapters
+\setuphead[title,chapter][align=middle]
+
 % Space between paragraphs
 \setupwhitespace[halfline]
 
 % Don't add extra whitespace in itemized lists
 \setupitemize[packed]
+
+% Image path configuration
+\setupexternalfigures[directory=.,location=local]
 
 \stopenvironment
